@@ -1,0 +1,15 @@
+/home/sveta/GB_Cyber/01_control-point/progfiles/bin/Debug/net6.0/progfiles
+/home/sveta/GB_Cyber/01_control-point/progfiles/bin/Debug/net6.0/progfiles.deps.json
+/home/sveta/GB_Cyber/01_control-point/progfiles/bin/Debug/net6.0/progfiles.runtimeconfig.json
+/home/sveta/GB_Cyber/01_control-point/progfiles/bin/Debug/net6.0/progfiles.dll
+/home/sveta/GB_Cyber/01_control-point/progfiles/bin/Debug/net6.0/progfiles.pdb
+/home/sveta/GB_Cyber/01_control-point/progfiles/obj/Debug/net6.0/progfiles.csproj.AssemblyReference.cache
+/home/sveta/GB_Cyber/01_control-point/progfiles/obj/Debug/net6.0/progfiles.GeneratedMSBuildEditorConfig.editorconfig
+/home/sveta/GB_Cyber/01_control-point/progfiles/obj/Debug/net6.0/progfiles.AssemblyInfoInputs.cache
+/home/sveta/GB_Cyber/01_control-point/progfiles/obj/Debug/net6.0/progfiles.AssemblyInfo.cs
+/home/sveta/GB_Cyber/01_control-point/progfiles/obj/Debug/net6.0/progfiles.csproj.CoreCompileInputs.cache
+/home/sveta/GB_Cyber/01_control-point/progfiles/obj/Debug/net6.0/progfiles.dll
+/home/sveta/GB_Cyber/01_control-point/progfiles/obj/Debug/net6.0/refint/progfiles.dll
+/home/sveta/GB_Cyber/01_control-point/progfiles/obj/Debug/net6.0/progfiles.pdb
+/home/sveta/GB_Cyber/01_control-point/progfiles/obj/Debug/net6.0/progfiles.genruntimeconfig.cache
+/home/sveta/GB_Cyber/01_control-point/progfiles/obj/Debug/net6.0/ref/progfiles.dll

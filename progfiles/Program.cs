@@ -14,3 +14,77 @@
 // [“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”]
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
+
+int PromptNum( string whatWePrompt = "число" )
+{
+	int curPrompt;
+
+	Console.WriteLine($"Введите { whatWePrompt }");
+
+	curPrompt = int.Parse(Console.ReadLine());
+
+	return curPrompt;
+}
+
+string PromptString( string whatWePrompt = "строку" )
+{
+	string curPrompt;
+
+	Console.WriteLine($"Введите { whatWePrompt }");
+
+	curPrompt = Console.ReadLine();
+
+	return curPrompt;
+}
+
+string[] CreateArrString( int n = 1 )
+{
+	if ( n <= 0 ) n = 1;
+
+	string[] arr = new string[n];
+
+	for (int i = 0; i < n; i++)
+	{
+		arr[i] = PromptString("очередную строку массива");
+	}
+
+	return arr;
+}
+
+string[] CreateArrWithShortsFromCurrent( string[] curArr )
+{
+	int n = 0;
+	int i = 0;
+
+	foreach ( string item in curArr )
+	{
+		if ( item.Length <= 3 ) n++;
+	}
+
+	string[] arr = new string[n];
+
+	foreach ( string item in curArr )
+	{
+		if ( item.Length <= 3 )
+		{
+			arr[i] = item;
+			i++;
+		}
+	}
+
+	return arr;
+}
+
+void ArrPrint( string[] arr )
+{
+	for ( int i = 0; i < arr.Length; i++ )
+	{
+		Console.Write( $"{ arr[i] }, " );
+	}
+	Console.WriteLine();
+}
+
+int n = PromptNum("количество элементов в массиве");
+string[] arrStr = CreateArrString( n );
+string[] arrStrShorts = CreateArrWithShortsFromCurrent( arrStr );
+ArrPrint( arrStrShorts );
